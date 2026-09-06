@@ -1,0 +1,1 @@
+export default function ErrorState({ message = 'Unable to load data.', onRetry }) { return <div className="state-message error-state"><span>{message}</span>{onRetry && <button onClick={onRetry}>Try again</button>}</div> }
